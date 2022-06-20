@@ -19,7 +19,8 @@ public:
 private:
 	World world;
 	Snake snake;
-
 	Window window;
+
+	float elapsed = 1.f;
 };
 

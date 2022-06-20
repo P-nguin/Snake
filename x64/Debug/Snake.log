@@ -1,0 +1,56 @@
+﻿  Game.cpp
+C:\Users\Anny\source\repos\Snake\Game.cpp(49,36): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  main.cpp
+  Snake.cpp
+C:\Users\Anny\source\repos\Snake\Snake.cpp(4,44): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Anny\source\repos\Snake\Snake.cpp(4,36): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Anny\source\repos\Snake\Snake.cpp(67,2): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Anny\source\repos\Snake\Snake.cpp(81,17): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+C:\Users\Anny\source\repos\Snake\Snake.cpp(102,63): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Anny\source\repos\Snake\Snake.cpp(102,39): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Anny\source\repos\Snake\Snake.cpp(107,64): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Anny\source\repos\Snake\Snake.cpp(107,40): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Window.cpp
+  World.cpp
+C:\Users\Anny\source\repos\Snake\World.cpp(9,33): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Anny\source\repos\Snake\World.cpp(14,49): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Anny\source\repos\Snake\World.cpp(14,45): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Anny\source\repos\Snake\World.cpp(17,56): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Anny\source\repos\Snake\World.cpp(17,35): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Anny\source\repos\Snake\World.cpp(35,52): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Anny\source\repos\Snake\World.cpp(35,32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Generating Code...
+main.obj : error LNK2005: main already defined in Game.obj
+C:\Users\Anny\source\repos\Snake\x64\Debug\Snake.exe : fatal error LNK1169: one or more multiply defined symbols found

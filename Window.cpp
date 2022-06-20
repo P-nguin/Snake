@@ -42,3 +42,8 @@ bool Window::isDone() { return done; }
 bool Window::isFullscreen() { return fullscreen; }
 sf::Vector2u Window::getWindowSize() { return windowSize; }
 void Window::draw(sf::Drawable& drawable) { window.draw(drawable); }
+
+sf::RenderWindow* Window::getRenderWindow()
+{
+	return &window;
+}
